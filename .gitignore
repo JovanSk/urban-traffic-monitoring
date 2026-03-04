@@ -19,3 +19,8 @@ Thumbs.db
 # Large videos
 *.avi
 *.mov
+
+exports/
+video/
+*.zip
+output_ground_truth.mp4
