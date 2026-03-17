@@ -52,9 +52,12 @@ The processing pipeline operates directly on the provided frames and annotation 
 Example frame showing object tracking, lane analytics and traffic statistics HUD.
 
 
-A full demonstration video is available here:
-[▶ Watch Demo Video](output/demo_video.mp4)
-<video src="output/demo_video.mp4" controls width="700"></video>
+
+## 📥 Full Video
+
+A full demonstration video is available for download:
+
+[⬇ Download Full Demo Video](output/demo_video.mp4)
 
 
 ## Installation
