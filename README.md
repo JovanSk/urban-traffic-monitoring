@@ -6,6 +6,13 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/demo.gif" width="700">
+</p>
+
+
 ## Overview
 
 This project demonstrates a **computer vision pipeline for urban traffic monitoring** based on annotated video data.  
