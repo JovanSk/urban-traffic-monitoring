@@ -1,6 +1,6 @@
 # Urban Traffic Monitoring Demo
 
-![CVAT](https://img.shields.io/badge/CVAT-Dataset%20Annotation-purple)
+![CVAT](https://img.shields.io/badge/CVAT-Video%20Annotation-purple)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
 ![COCO](https://img.shields.io/badge/Format-COCO-red)
