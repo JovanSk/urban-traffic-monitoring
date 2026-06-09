@@ -37,7 +37,7 @@ image_annotations = {}
 for ann in annotations:
     image_annotations.setdefault(ann["image_id"], []).append(ann)
 
-# Pretpostavljamo 1080p
+# 1080p
 width = images[0]["width"]
 height = images[0]["height"]
 
