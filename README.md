@@ -1,10 +1,11 @@
 # Urban Traffic Monitoring Demo
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Traffic%20Analytics-orange)
+![CVAT](https://img.shields.io/badge/CVAT-Dataset%20Annotation-purple)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
+![COCO](https://img.shields.io/badge/Format-COCO-red)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-
 
 ## 🎬 Demo
 
