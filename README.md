@@ -16,8 +16,8 @@
 
 ## Overview
 
-This project demonstrates a **computer vision pipeline for urban traffic monitoring** based on annotated video data.  
-It visualizes detected and tracked objects and generates real-time traffic statistics using a custom HUD overlay.
+This is a learning project focused on CVAT annotation workflows, COCO dataset processing, and video generation with OpenCV. The application loads annotated frames, visualizes object annotations with custom Python overlays, and generates a labeled output video.
+
 
 The system processes frames annotated in **COCO format** and produces an output video containing:
 
