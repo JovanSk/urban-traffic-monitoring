@@ -64,7 +64,7 @@ def draw_pro_box(frame, bbox, class_name, track_id, lane_id):
         bg_y2 = y1 + text_height + 2 * padding
 
     # ------------------------------------------------------
-    # 3️⃣ Draw filled background
+    # 3️⃣ Draw filled label background
     # ------------------------------------------------------
     # Transparency factor (0.0 - 1.0)
     alpha = 0.6  
@@ -72,7 +72,7 @@ def draw_pro_box(frame, bbox, class_name, track_id, lane_id):
     # Create overlay copy
     overlay = frame.copy()
 
-    # Draw full colour on overlay
+    # Draw full colour label on overlay
     cv2.rectangle(overlay, (bg_x1, bg_y1),
                 (bg_x2, bg_y2), color, -1)
 
@@ -90,7 +90,7 @@ def draw_pro_box(frame, bbox, class_name, track_id, lane_id):
             line,
             cv2.FONT_HERSHEY_SIMPLEX,
             font_scale,
-            font_thickness
+            font_thickness  
         )
 
         y_offset += th

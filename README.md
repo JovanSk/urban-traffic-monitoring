@@ -31,16 +31,6 @@ The system processes frames annotated in **COCO format** and produces an output 
 The goal of the project is to simulate a **traffic analytics visualization system** similar to those used in smart city and intelligent transportation applications.
 
 
-
-## Dataset
-
-The project uses an annotated dataset consisting of extracted video frames from an urban traffic video recorded at a city intersection
-and COCO-format annotations.
-
-The original source video used for frame extraction is not included in this repository. 
-The processing pipeline operates directly on the provided frames and annotation file.
-
-
 ## System Pipeline
 
 ![System Pipeline](docs/pipeline.png)
@@ -51,6 +41,42 @@ The processing pipeline operates directly on the provided frames and annotation 
 
 ![Demo Frame](docs/demo_frame.png)
 Example frame showing object tracking, lane analytics and traffic statistics HUD.
+
+
+
+## Dataset
+
+
+The project uses extracted video frames from an urban traffic video recorded at a city intersection, and COCO-format annotations.
+
+The original source video used for frame extraction is not included in this repository. 
+The processing pipeline operates directly on the provided frames and annotation file.
+
+Video frames were extracted from the source video using OpenCV and saved as sequential JPG images.
+
+
+Example:
+
+```python
+cap = cv2.VideoCapture("video/input.mp4")
+
+frame_id = 0
+
+while True:
+    ret, frame = cap.read()
+
+    if not ret:
+        break
+
+    cv2.imwrite(
+        f"frames/{frame_id:06d}.jpg",
+        frame
+    )
+
+    frame_id += 1
+
+cap.release()
+```
 
 
 

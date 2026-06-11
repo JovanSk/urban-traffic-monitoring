@@ -32,10 +32,13 @@ categories = coco_data["categories"]
 category_map = {cat["id"]: cat["name"] for cat in categories}
 
 
-# Mapping image_id -> annotations list
-image_annotations = {}
+# Map annotations with frames (that is images in COCO)
+
+image_annotations = {}  # annotations list by image_id
+
 for ann in annotations:
     image_annotations.setdefault(ann["image_id"], []).append(ann)
+
 
 # 1080p
 width = images[0]["width"]
@@ -56,8 +59,11 @@ unique_ids = set()
 class_counts = {}
 lane_counts = {}
 
+
+
 for img_info in tqdm(images):
 
+    # Load the extracted frame corresponding to this COCO image_id
     image_id = img_info["id"]
     frame_number = image_id
     file_name = f"{frame_number:06d}.jpg"
