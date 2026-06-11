@@ -29,6 +29,7 @@ The system processes frames annotated in **COCO format** and produces an output 
 - Timestamp overlay
 
 The goal of the project is to simulate a **traffic analytics visualization system** similar to those used in smart city and intelligent transportation applications.
+The visualization is based entirely on manual CVAT annotations exported in COCO format.
 
 
 ## System Pipeline
